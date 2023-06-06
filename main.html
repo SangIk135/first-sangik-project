@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header">
+          <div class="searchArea">
+            <form method="POST" action="pro.php" >
+            <input type="text" placeholder="검색어를 입력하세요" name="search">
+            <button type="submit">검색</button>
+        </form>
+          </div>
+          <ul class="nav">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <input type="radio" name="slide" id="slide01" checked>
+          <input type="radio" name="slide" id="slide02">
+          <input type="radio" name="slide" id="slide03">
+
+          <div class="slidewrap">
+            <ul class="slidelist">
+              <li>
+                <a>
+                  <label for="slide03" class="left"></label>
+                  <img src="photo/beach.jpg">
+                  <label for="slide02" class="right"></label>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <label for="slide01" class="left"></label>
+                  <img src="photo/river.jpg">
+                  <label for="slide03" class="right"></label>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <label for="slide02" class="left"></label>
+                  <img src="photo/road.jpg">
+                  <label for="slide01" class="right"></label>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cardbox">
+      <div class="card">
+          <div class="icon_png">
+            <img src="photo/food.png">
+          </div>
+          <div class="contents1_bold">맛집 </div>
+          <div class="contents2">맛집맛집맛집</div>
+          <div class="cardbutton">
+            <button onclick="location.href='nofood.php'">바로가기</button>
+        </div>
+      </div>
+        
+      <div class="card">
+          <div class="icon_png">
+            <img src="photo/tour.png">
+          </div>
+          <div class="contents1_bold">여행지 </div>
+          <div class="contents2">여행지여행지</div>
+          <div class="cardbutton">
+            <button onclick="location.href='notrip.php'">바로가기</button>
+        </div>
+      </div>
+
+        <div class="card">
+          <div class="icon_png">
+            <img src="photo/tradition.png">
+          </div>
+          <div class="contents1_bold">문화재 </div>
+          <div class="contents2">문화재문화재</div>
+          <div class="cardbutton">
+            <button onclick="location.href='noculture.php'">바로가기</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="icon_png">
+            <img src="photo/festival1.png">
+          </div>
+          <div class="contents1_bold">축제 </div>
+          <div class="contents2">축제축제축제</div>
+          <div class="cardbutton">
+            <button onclick="location.href='nofestival.php'">바로가기</button>
+      </div>
+    </div>
+    </div>
+
+        <div class="icons">
+          <li>
+            <div class="icon_img">
+              <img src="photo/weather.png">
+            </div>
+            <div class="contents1_bold">오늘의 날씨 </div>
+            <div class="contents2">
+                날씨도 체크하고 여행 떠나자 !
+            </div>
+            <div class="more">
+              <more onclick="location.href='next.html'">more</more >
+            </div>
+          </li>
+
+          <li>
+            <div class="icon_img">
+              <img src="photo/disaster.png">
+            </div>
+            <div class="contents1_bold">안전 안내 문자</div>
+            <div class="contents2">
+                혹시 모를 안전사고를 대비 ! 
+            </div>
+            <div class="more">
+              <more onclick="location.href='emerinfo.php'">more</more >
+            </div>
+          </li>
+
+          <li>
+            <div class="icon_img">
+              <img src="photo/festival.png">
+            </div>
+            <div class="contents1_bold">오늘의 축제</div>
+            <div class="contents2">
+              알아서 손해볼 것 없는 축제일정 ! 
+            </div>
+            <div class="more">
+              <more onclick="location.href='next.html'">more</more >
+            </div>
+          </li>
+        </div>
+      </div>
+  </body>
+</html>

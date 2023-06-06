@@ -1,0 +1,17 @@
+
+.bigbox {
+    float: left;
+    width: 600px;
+}
+
+div {
+    box-sizing: border-box;
+    display: block;
+}
+
+.textbox {
+    padding-left: 162px;
+    min-height: 94px;
+    padding-right: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open test.html",
+            "url": "http://localhost:8080",
+            "file": "d:\\XAMPP\\htdocs\\abc\\test.html"
+        },
+        {
+            "name": "Debug current Script in Console",
+            "detail": "Runs the current PHP script with debugging",
+            "type": "php",
+            "noDebug": false,
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "externalConsole": false
+        }
+    ]
+}
